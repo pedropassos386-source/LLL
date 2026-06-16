@@ -36,6 +36,7 @@ body {
 }
 
 .logo img {
+    width: 100%;
     max-width: 200px;
     background-size: contain;
 }
@@ -302,6 +303,11 @@ footer p {
     section.perfil-container .texto-perfil h2 {
         margin-top: 20px;
     }
+
+    section.perfil-container .texto-perfil p{
+    text-align: justify;
+    }
+
 
     .container {
         flex-direction: column;
