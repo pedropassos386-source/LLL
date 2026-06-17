@@ -3,7 +3,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: "Roboto";
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("../fonte/Roboto/static/Roboto-Regular.ttf") format("truetype");
+    font-display: swap;
 }
 
 li a {
@@ -32,11 +38,13 @@ body {
 
 .logo {
     width: 100%;
+    height: 100%;
     max-width: 200px;
 }
 
 .logo img {
     width: 100%;
+    height: 100%;
     max-width: 200px;
     background-size: contain;
 }
@@ -183,7 +191,7 @@ section.perfil-container .perfil-wraper2 {
 section.perfil-container .img-perfil {
     width: 40%;
     height: 100%;
-    background-image: url('../imagens/Lucca.png');
+    background-image: url('../imagens/Lucca.webp') ;
     background-size: 100% 100%;
 }
 
@@ -329,4 +337,5 @@ footer p {
         right: 6px;
         bottom: 2px;
     }
+
 }
