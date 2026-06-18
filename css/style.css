@@ -257,11 +257,46 @@ footer p {
     margin-top: 10px;
 }
 
+.slider-mobile{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
 
+.slide{
+    display: none;
+}
+
+.slide img{
+    width: 100%;
+    display: block;
+}
+
+.slide.ativo{
+    display: block;
+}
+.slider-mobile{
+    display:none;
+}
+@media screen and (max-width:800px){
+
+    .mosaico-wraper{
+        display:none;
+    }
+
+    .slider-mobile{
+        display:block;
+    }
+
+}
 
 
 /*Media*/
+
+
 @media screen and (max-width: 800px) {
+    
+
     section.servicos>.container2 {
         flex-direction: column;
         position: static;
