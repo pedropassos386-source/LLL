@@ -1,3 +1,7 @@
+window.onload = function(){
+            alert("Aopa, esse site é totalmente de cunho role-play então não o leve a serio.")
+        }
+
 const btn =
 document.getElementById("btnMenu");
 const menu = 
