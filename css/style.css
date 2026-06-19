@@ -328,6 +328,11 @@ footer p {
     
 }
 
+.colaboradores{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
 .sobre-autor{
     max-width: 600px;
     width: 50%;

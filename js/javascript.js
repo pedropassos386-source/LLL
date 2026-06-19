@@ -10,7 +10,7 @@ btn.addEventListener("click", () => {
 const btnTopo = document.getElementById("btnTopo");
 
 window.addEventListener("scroll", () => {
-    if(window.scrollY > 1500){
+    if(window.scrollY > 3000){
         btnTopo.classList.add("mostrar");
     }else{
         btnTopo.classList.remove("mostrar");
@@ -58,35 +58,35 @@ const depoimentos = [
     {
         nome: "Pitágoras Drakewood Stormrider",
         cargo: "COO da LLI",
-        foto:"./imagens/felipe.webp",
+        foto:"",
         texto: "Trabalhar na LLI significa estar na fronteira da inovação. Temos acesso a recursos de ponta e liberdade para desenvolver projetos ambiciosos. É um ambiente que valoriza conhecimento, criatividade e a busca constante por novas descobertas."
     },
 
     {
         nome: "Red Fate Leone",
         cargo: "Editora-Chefe da New Ommni Post",
-        foto:"./imagens/rosa.webp",
+        foto:"",
         texto: "O New Omni Post nasceu com o propósito de informar e continua fiel a essa missão. Trabalhamos diariamente para entregar notícias confiáveis e relevantes, mantendo o público sempre atualizado sobre os acontecimentos do mundo."
     },
 
     {
         nome: "Diogenes Leone",
         cargo: "Lider da familha Leone e presidente da AGGA",
-        foto:"./imagens/akatsuki.webp",
+        foto:"",
         texto: "A AGGA oferece tudo o que um aventureiro precisa para alcançar seu potencial. Aqui recebemos treinamento, suporte e oportunidades para fazer a diferença. É uma organização construída sobre coragem, cooperação e propósito."
     },
 
     {
         nome: "Lone Lothlórien Noldor Leone",
         cargo: "Vice-presidente da Corporação LLL",
-        foto:"./imagens/take.webp",
+        foto:"",
         texto: "O que mais me impressiona na LLL é sua capacidade de crescer sem perder seus valores. A empresa investe em pessoas, inovação e excelência, criando oportunidades para profissionais de diferentes áreas construírem carreiras sólidas e significativas.",
     },
     
     {
         nome: "Carina Leone",
         cargo: "Presidente do Banco Leão Dourado",
-        foto:"./imagens/take.webp",
+        foto:"",
         texto: "A confiança que os clientes depositam em nós é resultado de uma cultura organizacional baseada em responsabilidade e excelência. Aqui, cada decisão é tomada com seriedade e profissionalismo, sempre pensando no crescimento sustentável da instituição.",
     }
 ];
